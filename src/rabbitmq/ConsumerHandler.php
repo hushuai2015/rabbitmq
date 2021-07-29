@@ -1,7 +1,7 @@
 <?php
 namespace hs\rabbitmq;
 
-use mq\RabbitFacade;
+use hs\rabbitmq\RabbitFacade;
 use think\facade\Cache;
 use think\facade\Log;
 
