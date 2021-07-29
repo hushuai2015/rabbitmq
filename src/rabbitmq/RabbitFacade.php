@@ -1,5 +1,5 @@
 <?php
-namespace mq;
+namespace hs\rabbitmq;
 
 use think\Facade;
 

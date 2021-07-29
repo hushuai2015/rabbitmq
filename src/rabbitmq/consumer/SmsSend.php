@@ -1,9 +1,11 @@
 <?php
-namespace mq\consumer;
+namespace hs\rabbitmq\consumer;
+
+use hs\rabbitmq\ConsumerHandler;
+use hs\rabbitmq\ConsumerInterface;
 
 class SmsSend implements ConsumerInterface
 {
-
     use ConsumerHandler;
 
     /**

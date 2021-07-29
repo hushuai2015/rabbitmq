@@ -1,5 +1,5 @@
 <?php
-namespace mq;
+namespace hs\rabbitmq;
 use PhpAmqpLib\Connection\AMQPSocketConnection;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;

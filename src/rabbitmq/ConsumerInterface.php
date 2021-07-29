@@ -1,6 +1,6 @@
 <?php
 
-namespace mq\consumer;
+namespace hs\rabbitmq;
 
 
 /**

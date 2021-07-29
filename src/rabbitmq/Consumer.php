@@ -1,5 +1,5 @@
 <?php
-namespace mq;
+namespace hs\rabbitmq;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use think\facade\Log;
 

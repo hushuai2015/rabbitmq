@@ -1,9 +1,6 @@
 <?php
-namespace mq\consumer;
+namespace hs\rabbitmq;
 
-
-
-use mq\Config;
 use mq\RabbitFacade;
 use think\facade\Cache;
 use think\facade\Log;

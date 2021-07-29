@@ -1,5 +1,5 @@
 <?php
-namespace mq;
+namespace hs\rabbitmq;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use think\facade\Config;
 
@@ -11,14 +11,6 @@ use think\facade\Config;
  */
 class RabbitBase
 {
-
-
-
-
-    /**
-     * @var array
-     */
-    protected static $conn = [];
 
 
     protected $connection;
