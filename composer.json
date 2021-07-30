@@ -1,23 +1,23 @@
 {
-  "name": "hushuai/tp-rabbmitmq",
-  "description": "thinkphp6 rabbitmq",
-  "type": "library",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "胡帅",
-      "email": "793564147@qq.com"
+    "name": "hushuai/tp-rabbitmq",
+    "description": "thinkphp6-rabbitmq",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "hs\\rabbmitmq\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "胡帅",
+            "email": "793564147@qq.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "php": ">=7.0",
+        "topthink/framework": "^6.0.0",
+        "php-amqplib/php-amqplib": "^3.0"
     }
-  ],
-  "require": {
-    "ext-json": "*",
-    "php": ">=7.0",
-    "topthink/framework": "^6.0.0",
-    "php-amqplib/php-amqplib": "^3.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "hs\\rabbmitmq\\": "src"
-    }
-  }
 }
