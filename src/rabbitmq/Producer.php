@@ -13,10 +13,12 @@ class Producer extends Common
 {
 
     /**
+     *
      * 生产者生产消息
      * @param array $param
      * @param string $key
      * @return bool
+     * @throws \Exception
      */
     public function publish(array $param, string $key): bool
     {
