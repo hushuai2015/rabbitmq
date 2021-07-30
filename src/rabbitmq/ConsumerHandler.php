@@ -1,14 +1,13 @@
 <?php
 namespace hs\rabbitmq;
 
-use hs\rabbitmq\RabbitFacade;
 use think\facade\Cache;
 use think\facade\Log;
 
 /**
  * 消费者辅助处理类
  * Trait ConsumerHandler
- * @package mq\consumer
+ * @package hs\rabbitmq
  */
 trait ConsumerHandler
 {

@@ -1,14 +1,13 @@
 <?php
 namespace hs\rabbitmq;
-use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
+use think\Exception;
 use think\facade\Log;
 
 /**
  * 生产者
- * Class Rabbit
- * @package mq
- * @author hushuai
+ * Class Producer
+ * @package hs\rabbitmq
  */
 class Producer extends RabbitBase
 {
@@ -41,7 +40,7 @@ class Producer extends RabbitBase
             $channel->close();
             $this->connection->close();
             return true;
-        }catch (\Exception $exception){
+        }catch (Exception $exception){
             Log::error('Producer.Exception:'.$exception->getMessage());
             return false;
         }

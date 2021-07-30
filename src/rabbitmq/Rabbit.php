@@ -2,7 +2,7 @@
 namespace hs\rabbitmq;
 
 /**
- * 调用类
+ * 调用类封装
  * Class Rabbit
  * @package hs\rabbitmq
  */

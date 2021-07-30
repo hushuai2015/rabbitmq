@@ -12,6 +12,10 @@ class RabbitBase
 {
 
 
+    /**
+     * 连接句柄
+     * @var AMQPStreamConnection
+     */
     protected $connection;
 
 
