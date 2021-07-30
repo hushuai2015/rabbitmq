@@ -4,6 +4,11 @@ namespace hs\rabbitmq\consumer;
 use hs\rabbitmq\ConsumerHandler;
 use hs\rabbitmq\ConsumerInterface;
 
+
+/**
+ * Class SmsSend
+ * @package hs\rabbitmq\consumer
+ */
 class SmsSend implements ConsumerInterface
 {
     use ConsumerHandler;

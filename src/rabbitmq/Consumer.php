@@ -4,10 +4,9 @@ use PhpAmqpLib\Connection\AMQPStreamConnection;
 use think\facade\Log;
 
 /**
- * 消费者
- * Class Rabbit
- * @package mq
- * @author hushuai
+ * 消费者类
+ * Class Consumer
+ * @package hs\rabbitmq
  */
 class Consumer extends RabbitBase
 {

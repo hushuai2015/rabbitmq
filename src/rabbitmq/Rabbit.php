@@ -1,15 +1,10 @@
 <?php
 namespace hs\rabbitmq;
-use PhpAmqpLib\Connection\AMQPSocketConnection;
-use PhpAmqpLib\Connection\AMQPStreamConnection;
-use PhpAmqpLib\Message\AMQPMessage;
-use think\facade\Cache;
-use think\facade\Log;
 
 /**
+ * 调用类
  * Class Rabbit
- * @package mq
- * @author hushuai
+ * @package hs\rabbitmq
  */
 class Rabbit
 {

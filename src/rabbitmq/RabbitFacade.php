@@ -4,10 +4,9 @@ namespace hs\rabbitmq;
 use think\Facade;
 
 /**
+ * 门面类，便于调用
  * Class RabbitFacade
- * @package mq
- * @author hushuai
- * @mixin Rabbit
+ * @package hs\rabbitmq
  * @method static mixed push(array $msg,string $topic)
  * @method static mixed consumer(string $topic)
  */

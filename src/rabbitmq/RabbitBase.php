@@ -4,10 +4,9 @@ use PhpAmqpLib\Connection\AMQPStreamConnection;
 use think\facade\Config;
 
 /**
- * RabbitBase
- * Class Rabbit
- * @package mq
- * @author hushuai
+ * 基类
+ * Class RabbitBase
+ * @package hs\rabbitmq
  */
 class RabbitBase
 {
