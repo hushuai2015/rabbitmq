@@ -9,7 +9,7 @@ use think\facade\Log;
  * Class Producer
  * @package hs\rabbitmq
  */
-class Producer extends RabbitBase
+class Producer extends Common
 {
 
     /**

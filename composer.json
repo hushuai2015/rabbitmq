@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "hs\\rabbmitmq\\": "src/"
+            "hs\\rabbmitmq\\": "src/rabbitmq"
         }
     },
     "authors": [

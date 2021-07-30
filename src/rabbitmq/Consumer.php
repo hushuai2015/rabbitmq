@@ -7,12 +7,18 @@ use think\facade\Log;
  * Class Consumer
  * @package hs\rabbitmq
  */
-class Consumer extends RabbitBase
+class Consumer extends Common
 {
 
 
-
+    /**
+     * @var null
+     */
     public $class = null;
+
+    /**
+     * @var array
+     */
     protected $queueConfig = [];
 
     public function consumer($name)
@@ -75,7 +81,7 @@ class Consumer extends RabbitBase
         try {
             $data['params'] = json_decode($msg->body,true);
             $data['queueConfig'] = $this->queueConfig;
-            $res = (new $this->class())->job($data,$msg->getDeliveryTag());
+            $res = $this->job($data,$msg->getDeliveryTag());
             if(false === $this->queueConfig['no_ack']){
                 $res ? $msg->ack() : $msg->nack($msg->getDeliveryTag(),false,true);
             }

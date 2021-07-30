@@ -1,8 +1,8 @@
 <?php
 namespace hs\rabbitmq;
 
+
 /**
- * 调用类封装
  * Class Rabbit
  * @package hs\rabbitmq
  */

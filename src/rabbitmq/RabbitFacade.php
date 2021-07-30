@@ -4,7 +4,7 @@ namespace hs\rabbitmq;
 use think\Facade;
 
 /**
- * 门面类，便于调用
+ * 门面
  * Class RabbitFacade
  * @package hs\rabbitmq
  * @method static mixed push(array $msg,string $topic)
